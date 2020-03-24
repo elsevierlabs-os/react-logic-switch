@@ -8,7 +8,7 @@ A React component that lets you do conditional rendering, declaratively.
 ```
 npm install --save react-logic-switch
 ```
-__A small change__
+
 ```
 import { Switch, Case, Default } from 'react-logic-switch';
 

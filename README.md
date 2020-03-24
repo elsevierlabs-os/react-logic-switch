@@ -1,6 +1,6 @@
 # react-logic-switch
 
-[![npm package][npm-badge]][npm]
+[![npm package][npm-badge]][npm] [![Build Status](https://travis-ci.org/elsevierlabs-os/react-logic-switch.svg?branch=master)](https://travis-ci.org/elsevierlabs-os/react-logic-switch)
 
 A React component that lets you do conditional rendering, declaratively.
 

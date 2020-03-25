@@ -16,8 +16,7 @@
     "build": "NODE_ENV=production babel --presets minify --presets @babel/env src/lib --out-dir dist --ignore __tests__,spec.js,test.js,__snapshots__",
     "lint": "eslint src/**/*.js",
     "prettycheck": "prettier --check src/**/*.js",
-    "prettify": "prettier --write src/**/*.js",
-    "prerelease": "npm version patch"
+    "prettify": "prettier --write src/**/*.js"
   },
   "pre-commit": [
     "prettycheck",

@@ -17,7 +17,7 @@
     "lint": "eslint src/**/*.js",
     "prettycheck": "prettier --check src/**/*.js",
     "prettify": "prettier --write src/**/*.js",
-    "prerelease": "npm version patch"
+    "coveralls": "npm run test:coverage && cat coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
   },
   "pre-commit": [
     "prettycheck",
@@ -28,6 +28,7 @@
     "@babel/cli": "^7.7.4",
     "babel-preset-minify": "^0.5.1",
     "babel-preset-react-app": "^9.0.2",
+    "coveralls": "^3.0.11",
     "eslint": "^6.7.1",
     "eslint-config-prettier": "^6.7.0",
     "eslint-plugin-babel": "^5.3.0",
